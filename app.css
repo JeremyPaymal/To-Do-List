@@ -17,7 +17,6 @@
     display:block;
     margin: 120px auto;
     box-shadow: 5px 10px 20px black;
-    
   }
   
   /* Remove margins and padding from the list */
@@ -138,4 +137,34 @@
   
   .addBtn:hover {
     background-color: #bbb;
+  }
+
+
+  @media screen and (max-width: 1050px) {
+    .container{
+      width: 60%;
+    }
+}
+  @media screen and (max-width: 1050px) {
+    .container{
+      width: 75%;
+    }
+}
+  @media screen and (max-width: 650px) {
+      .container{
+        width: 90%;
+      }
+  }
+  @media screen and (max-width: 380px) {
+    input{
+      width: 50%;
+    }
+    .addBtn{
+      width: 40%;
+    }
+
+    .header h2 {
+      font-size: 30px;
+    }
+
   }
